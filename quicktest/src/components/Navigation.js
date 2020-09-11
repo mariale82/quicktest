@@ -23,6 +23,10 @@ const Navigation = () => {
       {isAuthenticated
         ? console.log("hola ", user)
         : console.log("Quien eres tu")}
+      <img
+        src="https://assets.quick.com.co/images/logos/quick-square-quick.svg?fh=ghf341"
+        style={{ height: "40px" }}
+      ></img>
       <Link className="navbar-brand" to="/">
         Olimpiadas
       </Link>
